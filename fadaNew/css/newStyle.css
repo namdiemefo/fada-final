@@ -1,0 +1,221 @@
+/*--navbar--*/
+
+#mynav {
+    background-color: #6F3D6E;
+    height: 50px;
+    padding-bottom: 0px;
+    border-bottom: 3px solid green;
+    border-top: 6px solid #F1F1F1;
+}
+
+
+#logout, #welcome, #brand-name {
+    color: white;
+    font-size: small;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+.collapse li {
+    float: right;
+}
+
+#logout {
+    color: blue;
+}
+
+/*--sidenav--*/
+
+#sidebar-wrapper {
+    width: 230px;
+    height: 180%;
+    background-color: #6F3D6E;
+    position: absolute;
+    z-index: 1000;
+    padding-top: 80px;
+    margin-left: 80px;
+    border-right: 12px solid #E7E7E7;
+    border-left: 12px solid #E7E7E7;
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper button {
+    text-indent: 20px;
+    line-height: 40px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    text-decoration-line: none;
+    font-size: small;
+    background: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: #FBFBFB;
+    
+}
+
+.dropdown-container {
+    display: none;
+    padding-left: 5px;
+    background: none;
+}
+
+#sidebar-wrapper .dropdown-btn:hover {
+    background: black;
+    
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#homebutton {
+    background: black;
+}
+
+
+#sidebar-wrapper .dropdown-container a {
+    width: 100%;
+    display: block;
+    background: none;
+    color: #FBFBFB;
+    font-size: small;
+    padding-left: 45px;
+    line-height: 40px;
+    text-decoration: none;
+    
+}
+
+#sidebar-wrapper .dropdown-container a:hover {
+    background: black
+}
+
+#contents_container {
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.contents{
+    display: none;
+}
+
+/*--page content--*/
+/*--home--*/
+
+#image {
+    float: left;
+}
+
+#profile_img {
+    width: 100px;
+    padding-top: 20px;
+}
+
+#stud_details {
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+label {
+    color: #777777;
+    font-size: small;
+}
+
+/*--course Evaluation--*/
+#courseEva {
+    font-size: small;
+
+}
+#courseImg {
+    float: center;
+    margin-right: 50px;
+    margin-top: -35px;
+}
+
+#courseEvaImg {
+    height: 200px;
+    width: 120px;
+}
+
+#courseEvaHeader {
+    float: center;
+    margin-left: 300px;
+}
+
+#courseEvaForm {
+    margin-top: 147px;
+}
+
+textarea {
+    background: #EEEEEE;
+    color: #7E7E7E;
+}
+
+#textarea {
+    margin-left: 220px;
+}
+
+/*--Final Clearance--*/
+#finalClearance {
+    margin-top: -40px;
+}
+
+.header {
+    font-size: x-large;
+}
+
+hr {
+    width: 750px;
+    margin-left: 400px
+}
+
+/*View Course Evaluation*/
+
+/*--Finance--*/
+#payfee {
+    font-size: small;
+}
+
+#payreceipt {
+    font-size: small;
+}
+
+#row {
+    font-size: thin;
+}
+
+/*--Grading--*/
+#Attendance {
+    font-size: small;
+} 
+
+/*--Registration--*/
+#courseReg {
+    margin-top: 110px;
+}
+
+#courseRegMessage {
+    color: red;
+}
+
+/*--Mobile devices--*/
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    body {
+        height: 100px;
+    }
+    #sidebar-wrapper {
+        float: left;
+        width: 30%;
+    }
+
+    contents_container {
+        width: 10%;
+    }
+}

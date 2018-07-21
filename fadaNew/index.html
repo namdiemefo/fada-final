@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/newStyle.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="mynav" class="navbar navbar-expand fixed-top">
+        <div class="container-fluid">
+            <a id="brand" href="#" class="navbar-brand navbar-left">
+                <img id="brand-img" src="img/CU-Logo.png" class="img-responsive">
+                <h9 id="brand-name" class="ml-auto">CU PORTAL</h9>
+            </a>
+
+            <button id="ham" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a id="welcome" class="nav-link">
+                            <h9>Welcome Fadairo Daniel Tiwalola|</h9>
+                        </a>
+                    </li>
+
+                    <li class="nav-item pr-lg-5">
+                        <a id="logout" class="nav-link">
+                            <h9>Logout</h9>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Navbar -->
+
+    <div class="wrapper">
+        <!-- Sidenav -->
+        <nav id="sidebar-wrapper">
+            <button class="dropdown-btn" id="show_profile">PROFILE</button>
+            <button class="dropdown-btn" id="show_classAdmin">CLASS ADMINISTRATION</button>
+            <div class="dropdown-container">
+                <a id="show_courseEva">Course Evaluation</a>
+                <a id="show_finalClearance">Final Clearance</a>
+                <a id="show_viewCourseEva">View Course Evaluation</a>
+            </div>
+            <button class="dropdown-btn">FINANCE</button>
+            <div class="dropdown-container">
+                <a id="payFee">Pay Fee</a>
+                <a id="payReceipt">Payment Receipt</a>
+                <a id="stateAcc">Statement Of Account</a>
+            </div>
+            <button class="dropdown-btn">GRADING</button>
+            <div class="dropdown-container">
+                <a id="attendance">Attendance & C.A.</a>
+            </div>
+            <button class="dropdown-btn">REGISTRATION</button>
+            <div class="dropdown-container">
+                <a id="course_reg">Course Registration</a>
+                <a id="eds">Eds Practical</a>
+                <a id="gradreq">Graduation Requirements</a>
+                <a id="printReg">Print Registration</a>
+            </div>
+            <button class="dropdown-btn">RESULT</button>
+            <div class="dropdown-container">
+                <a href="unofficialResult">Unoffical Transcript</a>
+            </div>
+            <button class="dropdown-btn">RESUMPTION FORM</button>
+            <div class="dropdown-container">
+                <a href="printClearance">Print Clearance</a>
+            </div>
+            <button class="dropdown-btn">SETTINGS</button>
+            <div class="dropdown-container">
+                <a class="dropdown-container">
+                    <a href="changePassword">Change Password</a>
+                </a>
+            </div>
+        </nav>
+        <!-- Sidenav -->
+
+        <!--Contents-->
+
+        <!--Profile-->
+        <div id="contents_container">
+            <div class="contents" id="profile">
+                <div class="wrapper">
+                    <h4>
+                        <strong>Profile</strong>
+                    </h4>
+                </div>
+
+                <div id="image">
+                    <img src="img/fadaimg.jpg" id="profile_img">
+                </div>
+
+                <div id="stud_details">
+                    <div class="form-group" id="form">
+                        <div class="">
+                            <label for="name">
+                                <strong>Name:</strong>
+                            </label>
+                            <div class="">
+                                <h4>Fadairo Daniel Tiwalola</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_group">
+                        <div class="">
+                            <label for="name">
+                                <strong>Gender:</strong>
+                            </label>
+                            <div class="">
+                                <h4>Male</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_group">
+                        <div class="">
+                            <label for="name">
+                                <strong>Date Of Birth:</strong>
+                            </label>
+                            <div class="">
+                                <h4>April 8th, 1978</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_group">
+                        <div class="">
+                            <label for="name">
+                                <strong>Level:</strong>
+                            </label>
+                            <div class="">
+                                <h4>400</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_group">
+                        <div class="">
+                            <label for="name">
+                                <strong>Programme:</strong>
+                            </label>
+                            <div class="">
+                                <h4>Electrical and Electronics Engineering</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_group">
+                        <div class="">
+                            <label for="name">
+                                <strong>Status:</strong>
+                            </label>
+                            <div class="">
+                                <h4>Promoted to 400</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!--Course Evaluation-->
+            <div id="courseEva" class="contents">
+                <div id="courseImg">
+                    <img src="img/fadaimg.jpg" id="courseEvaImg">
+                </div>
+
+                <div id="courseEvaHeader">
+                    <h5>Covenant University</h5>
+                    <p>2017/2018 Omega</p>
+                    <p>COURSE EVALUATION</p>
+                </div>
+
+                <div class="form-group" id="courseEvaForm">
+                    <div class="col-md-10">
+                        <label for="name">Name:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea readonly>Fadairo Daniel Tiwalola</textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="matricNo">Matric no:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea rows="1" readonly>14ck016857</textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="college">College:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea rows="1" readonly>CoE</textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="programme">Programme:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea rows="1" readonly>Electrical and Electronics Engineering</textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="level">Level:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea rows="1" readonly>400</textarea>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <br>
+                    <hr>
+
+                    <div class="">
+                        <label for="evaluated">Evaluated/Cleared Courses</label>
+                    </div>
+                    <hr>
+                    <div>
+                        <table>
+                            <tr>
+                                <th id="cc" scope="col" style="padding:0 140px 0 15px;">
+                                    <h6>
+                                        <strong>Course Code</strong>
+                                    </h6>
+                                </th>
+                                <th id="cc" scope="col" style="padding:0 140px 0 15px;">
+                                    <h6>
+                                        <strong>Course Code</strong>
+                                    </h6>
+                                </th>
+                                <th id="cc" scope="col" style="padding:0 140px 0 15px;">
+                                    <h6>
+                                        <strong>Course Code</strong>
+                                    </h6>
+                                </th>
+                            </tr>
+                        </table>
+                        <hr>
+                        <hr>
+                        <br>
+                        <hr>
+                        <div>
+                            <h6 style="font-size: small">
+                                You are required to present your ID Card for any examination.
+                            </h6>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!--Final Clearance-->
+            <div id="finalClearance" class="contents">
+                <div class="header">
+                    <strong>FINAL CLEARANCE FOR GRADUATING STUDENTS</strong>
+                </div>
+                <div>
+                    Instruction/Guidelines
+                </div>
+
+                <hr style="border: thick; width: 500px">
+
+                <p>You are currently not a graduating student.</p>
+
+            </div>
+
+            <!--View course Evaluation-->
+            <div id="viewcourseEva" class="contents">
+                <div id="courseImg">
+                    <img src="img/fadaimg.jpg" id="courseEvaImg">
+                </div>
+
+                <div id="courseEvaHeader">
+                    <h5>Covenant University</h5>
+                    <p>2017/2018 Omega</p>
+                    <p>COURSE EVALUATION</p>
+                </div>
+
+                <div class="form-group" id="courseEvaForm">
+                    <div class="col-md-10">
+                        <label for="name">Name:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea readonly>Fadairo Daniel Tiwalola</textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="matricNo">Matric no:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea rows="1" readonly>14ck016857</textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="college">College:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea rows="1" readonly>CoE</textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="programme">Programme:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea rows="1" readonly>Electrical and Electronics Engineering</textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="level">Level:</label>
+                        <div class="col-md-2" id="textarea">
+                            <textarea rows="1" readonly>400</textarea>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <br>
+                    <hr>
+
+                    <div class="">
+                        <label for="evaluated">Evaluated/Cleared Courses</label>
+                    </div>
+                    <hr>
+                    <div>
+                        <table>
+                            <tr>
+                                <th id="cc" scope="col" style="padding:0 140px 0 15px;">
+                                    <h6>
+                                        <strong>Course Code</strong>
+                                    </h6>
+                                </th>
+                                <th id="cc" scope="col" style="padding:0 140px 0 15px;">
+                                    <h6>
+                                        <strong>Course Code</strong>
+                                    </h6>
+                                </th>
+                                <th id="cc" scope="col" style="padding:0 140px 0 15px;">
+                                    <h6>
+                                        <strong>Course Code</strong>
+                                    </h6>
+                                </th>
+                            </tr>
+
+
+                        </table>
+                        <hr>
+                        <hr>
+                        <br>
+                        <hr>
+                        <div>
+                            <h6 style="font-size: small">
+                                You are required to present your ID Card for any examination.
+                            </h6>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!--View Course Evaluation-->
+
+            <!--Finanace-->
+            <!--Pay Fee-->
+            <div id="payfee" class="contents">
+                <div class="header">
+                    PAYMENT
+                </div>
+                <br>
+                <div class="form-group" id="payform">
+                    <div class="form-group ">
+                        <label for="balance">Balance brought forward:</label>
+                        <h6>5,000.00</h6>
+                    </div>
+
+                    <div class="form-group ">
+                        <label class="control-label" for="fees">School Fees for 2018/2019 Session:</label>
+                        <h6>950,000.00</h6>
+                    </div>
+
+                    <div class="form-group ">
+                        <label for="other">Other Charges:</label>
+                        <h6>20,000.00</h6>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="total">Total Amount Expected:</label>
+                        <h6>975,000</h6>
+                    </div>
+
+                    <div class="form-group ">
+                        <label for="paid">Total Amount paid:</label>
+                        <h6>0,000.00</h6>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="outstanding">Total Amount Outstanding</label>
+                        <h6>0,000.00</h6>
+                    </div>
+                </div>
+            </div>
+            <!--Pay Receipt-->
+            <div id="payreceipt" class="contents">
+                <div class="header">
+                    PAYMENT HISTORY
+                </div>
+
+                <div id="name">
+                    Fadairo Daniel Tiwalola
+                </div>
+                <br>
+                <br>
+                <table>
+                    <tr id="col">
+                        <th scope="col" style="padding:0 10px 0 15px;">SN</th>
+                        <th scope="col" style="padding:0 140px 0 15px;">Purpose</th>
+                        <th scope="col" style="padding:0 140px 0 15px;">Transaction Number</th>
+                        <th scope="col" style="padding:0 140px 0 15px;">Amount</th>
+                        <th scope="col" style="padding:0 140px 0 15px;">Date Paid</th>
+                    </tr>
+
+                    <tr id="row">
+                        <th scope="row" style="padding: 0, 20px, 0, 40px;">1</th>
+                        <th scope="row" style="padding: 0, 20px, 0, 40px;">SCHOOL FEE</th>
+                        <th scope="row" style="padding: 0, 80px, 0, 40px;">44788913320439</th>
+                        <th scope="row" style="padding: 0, 20px, 0, 40px;">475,000</th>
+                        <th scope="row" style="padding: 0, 20px, 0, 40px;">2017-09-01 11:15:29</th>
+                    </tr>
+                </table>
+            </div>
+
+            <!--Grading-->
+            <!--Attendance-->
+            <div id="Attendance" class="contents">
+                <div id="attendanceHeader">
+                    <h4>
+                        <strong>CURRENT SEMESTER'S ATTENDANCE AND CONTINUOS ASSESMENT</strong>
+                    </h4>
+                </div>
+                <br>
+                <div id="attendance_table">
+                    <table>
+                        <tr id="col">
+                            <th scope="col" style="padding:0 70px 0 15px;">SN</th>
+                            <th scope="col" style="padding:0 70px 0 15px;">COURSE</th>
+                            <th scope="col" style="padding:0 70px 0 15px;">ATTENDANCE</th>
+                            <th scope="col" style="padding:0 70px 0 15px;">TEST1</th>
+                            <th scope="col" style="padding:0 70px 0 15px;">TEST2</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!--Registration-->
+            <!--Course Registration-->
+            <div id="courseReg" class="contents">
+                <div id="courseRegMessage">
+                    <h3>Course registration is not opened for all students on SIWES!!!</h3>
+                </div>
+            </div>
+
+            <!--EDS Practical-->
+            <div id="EdsReg" class="contents">
+                    <div id="courseRegMessage">
+                        <h3>EDS Registration is not opened for all students on SIWES!!!</h3>
+                    </div>
+                </div>
+
+                <!--Graduation Requirements-->
+                <div id="GradReq" class="contents">
+                        <div id="courseRegMessage">
+                            <h3>Graduation registration is not opened for all students on SIWES!!!</h3>
+                        </div>
+                    </div>
+
+                    <!--Print Registration-->
+                    <div id="PrintReg" class="contents">
+                            <div id="courseRegMessage">
+                                <h3>Graduation registration is not opened for all students on SIWES!!!</h3>
+                            </div>
+                        </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/newJquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/newScript.js"></script>
+
+
+
+</body>
+
+</html>
